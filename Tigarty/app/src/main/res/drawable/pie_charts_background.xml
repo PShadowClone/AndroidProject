@@ -1,0 +1,61 @@
+<!--<?xml version="1.0" encoding="utf-8"?>--><!--<selector xmlns:android="http://schemas.android.com/apk/res/android">-->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Drop Shadow Stack -->
+    <item>
+        <shape>
+            <padding android:top="1dp" android:right="1dp" android:bottom="2dp" android:left="1dp" />
+            <corners android:radius="10dp" />
+            <solid android:color="#00CCCCCC" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding android:top="1dp" android:right="1dp" android:bottom="2dp" android:left="1dp" />
+            <corners android:radius="10dp" />
+            <solid android:color="#10CCCCCC" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding android:top="1dp" android:right="1dp" android:bottom="2dp" android:left="1dp" />
+            <corners android:radius="10dp" />
+            <solid android:color="#20CCCCCC" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding android:top="1dp" android:right="1dp" android:bottom="2dp" android:left="1dp" />
+            <corners android:radius="10dp" />
+            <solid android:color="#30CCCCCC" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding android:top="1dp" android:right="1dp" android:bottom="2dp" android:left="1dp" />
+            <corners android:radius="10dp" />
+            <solid android:color="#50CCCCCC" />
+        </shape>
+    </item>
+
+    <!-- Background -->
+    <item>
+        <shape>
+            <solid android:color="#ffffff" />
+            <corners android:radius="5dp" />
+        </shape>
+    </item>
+</layer-list>
+<!--<ripple-->
+    <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:color="@color/accent_dark">-->
+    <!--<item>-->
+        <!--<shape-->
+            <!--android:shape="oval">-->
+            <!--<solid android:color="?android:colorAccent" />-->
+        <!--</shape>-->
+    <!--</item>-->
+<!--</ripple>-->
+    <!--<item>--><!--<layer-list>--><!--<item>--><!--<item>--><!--<solid android:color="#42000000" />--><!--<corners android:radius="5dp" />--><!--</item>--><!--</item>--><!--</layer-list>--><!--</item>-->
+
+    <!--</selector>-->

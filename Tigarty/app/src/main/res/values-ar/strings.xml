@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">تيجارتي</string>
+    <string name="scan">Scan</string>
+    <string name="title_activity_main">الرئيسية</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">الاعدادات</string>
+    <string name="productName">اسم المنتج</string>
+    <string name="productNumber">رقم المنتج</string>
+    <string name="userName">اسم المستخدم</string>
+    <string name="password">كلمة المرور</string>
+    <string name="phoneNumber">رقم الجوال / المحمول</string>
+    <string name="done">تم بنجاح</string>
+    <string name="internetError">يجب عليك التأكد من الاتصال بالنترنت</string>
+    <string name="suddenlyError">حدث خلل ما اثناء تنفيذ العملية</string>
+    <string name="fillAllFields">يجب ملأ جميع الحقول</string>
+    <string name="sendButton">ارسال</string>
+    <string name="scanButton">ادخال</string>
+    <string name="cancelButton">الغاء</string>
+    <string name="productNameError">يجب عليك ادخال اسم المنتج بشكل يدوي</string>
+    <string name="loginButton">تسجيل الدخول</string>
+    <string name="serverPriorError">حدث خلل في التواصل مع السيرفر</string>
+    <string name="scanEmpty">لم يتم التعرف على الرقم</string>
+    <string name="productOfHighestProfit">المنتج الأعلى أرباحاً</string>
+    <string name="productOfTheHighestSale">المنتج الأعلى مبيعاً</string>
+    <string name="monthlyProfits">أرباح الشهر الحالي</string>
+    <string name="navigationMain">الرئيسية</string>
+    <string name="navigationTraderInvoice">فاتورة التاجر </string>
+    <string name="navigationSalePoint">فاتورة البيع</string>
+    <string name="numberOfSale">عدد المبيعات : </string>
+    <string name="restAmount">الكمية المتبقية : </string>
+    <string name="cartoon">ك</string>
+    <string name="fileException">حدث خلل اثناء تخزين المعلومات محلياً</string>
+    <string name="shopProducts">سلع المتجر</string>
+
+
+
+
+</resources>

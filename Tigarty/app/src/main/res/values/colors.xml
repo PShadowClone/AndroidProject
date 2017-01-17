@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00E676</color>
+    <color name="colorPrimaryDark">#00C853</color>
+    <color name="colorAccent">#dc00e676</color>
+    <color name="colorOfHighest">#21bbe6</color>
+    <color name="buttonColor">#00E676</color>
+    <color name="buttonText">#E8F5E9</color>
+    <color name="cancelButton">#FF1744</color>
+
+
+</resources>

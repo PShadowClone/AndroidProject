@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.amrsaidam.tigarty.MainActivity"
+    android:background="@drawable/scanner_background">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        app:srcCompat="@drawable/tigarty_logo"
+        android:layout_marginTop="40dp"/>
+
+    <LinearLayout
+        android:id="@+id/textContainer"
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_below="@id/imageView"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/imageView"
+            android:layout_marginBottom="20dp">
+
+            <EditText
+                android:id="@+id/scan_format"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/imageView"
+                android:layout_alignStart="@+id/imageView"
+
+
+                android:ems="10"
+                android:hint="@string/productName"
+                android:imeOptions="actionDone"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/scan_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/scan_format"
+                android:layout_alignStart="@+id/scan_format"
+                android:layout_below="@+id/scan_format"
+                android:layout_marginTop="8dp"
+                android:ems="10"
+                android:hint="@string/productAmount"
+                android:inputType="textPersonName" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_below="@+id/textContainer">
+
+            <Button
+                android:id="@+id/scan_button"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:background="@color/colorPrimary"
+                android:text="@string/scanButton"
+                android:layout_marginBottom="10dp"/>
+
+            <Button
+                android:id="@+id/send_Button"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@id/scan_button"
+                android:layout_gravity="center"
+                android:background="@color/colorPrimaryDark"
+                android:text="@string/sendButton" />
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

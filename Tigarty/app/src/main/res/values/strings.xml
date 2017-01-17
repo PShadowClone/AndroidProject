@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Tigarty</string>
+    <string name="scan">Scan</string>
+    <string name="title_activity_main">Main</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="productName">Product Name</string>
+    <string name="productNumber">Product Number</string>
+    <string name="userName">User Name</string>
+    <string name="password">Password</string>
+    <string name="phoneNumber">Phone Number</string>
+    <string name="done">Done</string>
+    <string name="internetError">Check your internet connection</string>
+    <string name="suddenlyError">Something went wrong during performing this operation </string>
+    <string name="fillAllFields">You should Fill All fields</string>
+    <string name="sendButton">Send</string>
+    <string name="scanButton">Scan</string>
+    <string name="cancelButton">Cancel</string>
+    <string name="productNameError">You should enter product name manually</string>
+    <string name="loginButton">SignIn</string>
+    <string name="serverPriorError">Something went wrong before connecting with server</string>
+    <string name="productAmount">Product Amount</string>
+    <string name="scanEmpty">No scan data received</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="productOfHighestProfit">\t\tThe Highest Product \n(Profits)</string>
+    <string name="productOfTheHighestSale">\t\tThe Highest Product \n(Sales)</string>
+    <string name="monthlyProfits">Gained profits during this month</string>
+    <string name="navigationMain">Main</string>
+    <string name="navigationTraderInvoice">Trader Invoice</string>
+    <string name="navigationSalePoint">Sale Invoice</string>
+    <string name="shopProducts">Shop Products</string>
+    <string name="webURL">tigarty.com</string>
+    <string name="numberOfSale">Number of sale : </string>
+    <string name="restAmount">Rest Amount : </string>
+    <string name="cartoon">C</string>
+    <string name="fileException">Something went wrong during save information locally</string>
+
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
